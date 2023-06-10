@@ -5,10 +5,5 @@ import { createPinia } from "pinia";
 export async function main() {
   const pinia = createPinia();
 
-  const app = createApp(App).use(pinia);
-
-
-  app.mount(#app)
+ createApp(App).use(pinia).mount(App);
 }
-
-

@@ -1,5 +1,3 @@
 <template>
-  
+<PageList />
 </template>
-
-<script setup lang="ts"></script>

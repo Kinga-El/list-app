@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/todo-list",
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src/main/typescript"),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
   build: {
@@ -17,7 +17,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "@/core/css/base-imports.scss";`
+       // additionalData: `@import "@/core/css/base-imports.scss";`
       },
     },
   },
