@@ -1,7 +1,8 @@
 <template>
-  <PageListHeader />
+  <form>
+    <input />
+    <button>add Item</button>
+  </form>
 </template>
 
-<script setup lang="ts">
-import PageListHeader from "./header/PageListHeader.vue";
-</script>
+<script setup lang="ts"></script>

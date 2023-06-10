@@ -10,6 +10,8 @@
   &__title {
     text-transform: uppercase;
     color: white;
+    margin: 0;
+    padding: 15px;
   }
 }
 </style>
